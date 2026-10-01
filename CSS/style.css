@@ -1,0 +1,172 @@
+body
+
+/* Body styles */
+{
+  font-family: "Amatic SC", sans-serif;
+    background-image: url("/img/biblioteca5.jpg");
+    background-size: cover;
+    background-position: left top;
+    background-attachment: sticky; 
+    z-index:1;
+    background-repeat: no-repeat;
+    background-color: #f8e5b1;
+    background-blend-mode: multiply;
+    background-size: cover;
+    font-family: "Amatic SC", sans-serif;
+
+}
+
+
+section
+
+/* Section styles */
+{
+    color: #000000;
+    padding: 20px;
+    background-color: rgba(255, 241, 194, 0.8);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1 h2 h3 h3 h5 h6
+
+/* Heading styles */
+
+{
+    color: #000000;
+    margin-top: 0;
+}
+
+button
+
+/* Button styles */
+
+{
+    background-color: #EAEAEA;
+    color: #7F4CA5;
+    border: outset 6px #4b1c71;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: "Amatic SC", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ffffff;
+    transform: scale(1.1);
+   
+}
+
+img
+
+/* Img styles */
+
+{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+a
+
+/*Link styles*/
+
+{
+    color: #dfb464;
+    text-decoration: none;
+}
+
+
+table
+
+/*Table styles*/
+
+{
+    margin: auto;
+    border-radius: 10px;
+    position: center;
+}
+
+p
+
+/* Paragraph styles */
+
+{
+    font-size: 100%;
+    line-height: 1.5;
+    text-align: justify;
+    color: #000000;
+}
+
+
+hr
+
+/*Line styles*/
+
+{
+    border: 3px solid #dfb464;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+
+header
+
+/* Header styles */
+
+{
+    background-color: #333;
+    border-radius: 10px;
+    color: #d4ccbd;
+    padding: 1px;
+    text-align: center;
+    position: sticky;
+  
+    
+}
+
+
+/* Navigation styles */
+nav ul li
+{
+ list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    width: 100px;
+
+    padding: 0;
+  transition-delay: 0ms;  
+color: #dfb464;
+
+
+}
+
+
+h1
+{
+letter-spacing: 5px;
+text-transform: uppercase;
+text-shadow:#000000 2px 2px;
+
+}
+
+footer
+
+/* Footer styles*/
+
+{
+    background-color: #333;
+    border-radius: 10px;
+    color: #d4ccbd;
+    padding: 10px;
+    text-align: center;
+}
