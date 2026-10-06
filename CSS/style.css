@@ -37,11 +37,8 @@ h1 h2 h3 h3 h5 h6
     margin-top: 0;
 }
 
-button
+.botao-contato {
 
-/* Button styles */
-
-{
     background-color: #EAEAEA;
     color: #7F4CA5;
     border: outset 6px #4b1c71;
@@ -59,7 +56,8 @@ button
     transition: 0.3s;
 }
 
-button:hover {
+.botao-contato:hover {
+    background-color: #ddd;hover {
     background-color: #ffffff;
     transform: scale(1.1);
    
